@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stegano Audio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#steganography">Steganography</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Application Stegano Audio</h1>
+        <p>Your solution for audio steganography using Space Filling Peano Curve</p>
+        <p> Let's Try</p>
+        <button onclick="location.href='#steganography'">Go to Steganography</button>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <h4>Penjelasan Tentang Metode yang Digunakan</h4>
+        <p>
+            Kurva Peano adalah salah satu contoh konstruksi fraktal yang menarik dalam matematika. Ini adalah kurva yang memenuhi dua kriteria: ia adalah kurva kontinu (artinya, tidak ada putus-putus dalam kurva tersebut), dan ia memenuhi prinsip fill the space, yang berarti kurva tersebut dapat mengisi suatu area tertentu dalam ruang.
+
+<p>Kurva Peano mewakili contoh kurva yang sangat berkelok-kelok, sehingga ia dapat mengisi ruang dengan panjang yang relatif kecil. Pada dasarnya, ia memberikan ilustrasi tentang bagaimana kurva bisa mengisi ruang dengan efisien dalam jumlah langkah tertentu, bahkan jika kurva tersebut sangat rumit.
+
+</p><p>Dengan demikian, "space filling Peano kurve" mengacu pada kurva Peano yang memiliki sifat pengisian ruang, di mana kurva tersebut secara teoritis dapat mengisi suatu area atau ruang dengan cara yang memenuhi kriteria-kriteria matematika tertentu. Ini menjadi topik menarik dalam matematika, terutama dalam studi tentang fraktal dan geometri topologi.
+        </p>
+<h4>Keterkaitan Metode dengan Penerapan Steganography Audio</h4>
+<p>Penerapan kurva Peano dalam steganografi audio dapat menjadi salah satu pendekatan untuk menyembunyikan pesan rahasia dalam file audio. Dalam konteks ini, kurva Peano dapat digunakan untuk mengalokasikan ruang dalam file audio di mana pesan-pesan tersembunyi dapat ditanamkan.</p>
+
+<p>Kurva Peano dapat digunakan untuk membuat pola yang kompleks dalam representasi domain waktu atau frekuensi dari file audio. Pesan-pesan rahasia kemudian dapat ditanamkan dalam pola tersebut dengan berbagai teknik steganografi, seperti mengubah amplitudo atau fase sinyal audio pada titik-titik yang telah ditentukan oleh pola kurva Peano.<p>
+
+Perhitungannya melibatkan beberapa langkah, antara lain:
+<br>
+
+<ul><li>Pemilihan Kurva Peano: Pilih kurva Peano yang sesuai untuk menyembunyikan pesan pada file audio. Kurva Peano dapat dihasilkan dengan berbagai metode, termasuk rekursi atau iterasi.</ul></li>
+
+<ul><li>Segmentasi Audio: Bagi file audio menjadi segmen-segmen yang sesuai dengan pola kurva Peano yang telah dipilih.</ul></li>
+
+<ul><li>Penyisipan Pesan: Tentukan di mana dan bagaimana pesan rahasia akan disisipkan dalam setiap segmen audio. Ini bisa dilakukan dengan mengubah beberapa fitur audio seperti amplitudo, fase, atau frekuensi pada titik-titik yang dipilih sesuai dengan pola kurva Peano.</ul></li>
+
+<ul><li>Rekonstruksi: Setelah pesan-pesan rahasia disisipkan, rekonstruksi ulang file audio untuk menghasilkan file yang terdengar normal tetapi menyimpan pesan-pesan tersembunyi.</ul></li>
+
+<ul><li>Ekstraksi Pesan: Ketika diperlukan, pesan-pesan rahasia dapat diekstrak dari file audio dengan menggunakan algoritma yang sesuai dan mengikuti pola kurva Peano yang digunakan untuk menyembunyikannya.</ul></li>
+    <section id="steganography">
+        <h2>Steganography Audio</h2>
+        <div id="container">
+            <h5>Input file Audio</h5>
+            <input type="file" id="audioFile" accept="audio/*"><br>
+            <textarea id="message" placeholder="Enter the message to hide"></textarea><br>
+            <button id="hideButton">Hide</button>
+            <button id="extractButton">Extract</button>
+            <button id="resetButton">Reset</button>
+            <div id="downloadLink"></div>
+        </div>
+        <div id="downloadLink"></div>
+    </section>
+
+    <section id="members">
+        <h2>Members</h2>
+        <div class="member">
+            <img src="eca.jpg" alt="Member 1">
+            <h3>Annisa Esha Utami</h3>
+            <p>227006161</p>
+        </div>
+        <div class="member">
+            <img src="uja.jpg" alt="Member 2">
+            <h3>Jauza Hasna Dalila</h3>
+            <p>227006145</p>
+        </div>
+        <div class="member">
+            <img src="mim.jpg" alt="Member 3">
+            <h3>Risma</h3>
+            <p>227006144</p>
+        </div>
+        <!-- Add more members as needed -->
+    </section>
+
+    <section id="contact">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong> Kampus 2 Unsil Mugarsari, Kec. Tamansari, Kab. Tasikmalaya, Jawa Barat 46196</p>
+            <p><strong>Phone Number:</strong> 082117836231</p>
+            <p><strong>Email:</strong> 227006144@student.unsil.ac.id</p>
+        </div>
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email address" required>
+                <textarea name="message" placeholder="Message" rows="3" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    
+    </section>
+    <section id="footer">
+        <p>&copy; 2024 Stegano Audio. All rights reserved.</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
